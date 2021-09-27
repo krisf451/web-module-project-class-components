@@ -23,7 +23,7 @@ export default function TodoForm({ addTodo }) {
         value={state.input}
         type="text"
         name="todo"
-        placeholder="Enter A Todo..."
+        placeholder="Todo..."
       />
       <button onClick={handleAddClick}>Add Todo</button>
     </form>
